@@ -3,7 +3,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
 
-const expectedUser = "app";
+const expectedUser = "node";
 const actualUser = execFileSync("id", ["-un"], { encoding: "utf8" }).trim();
 
 if (actualUser !== expectedUser) {
