@@ -1,0 +1,10 @@
+{
+  "name": "corpus-dev-container-linux-user",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/check-user.mjs",
+    "dev": "node server.mjs"
+  }
+}
